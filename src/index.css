@@ -1,0 +1,21 @@
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+  color: red;
+  font-size: xx-large;
+}
